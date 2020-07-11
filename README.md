@@ -1,2 +1,2 @@
-# Algorithimic_Toolbox_Coursera
+# Algorithimic-Toolbox-Coursera
 Assignments
