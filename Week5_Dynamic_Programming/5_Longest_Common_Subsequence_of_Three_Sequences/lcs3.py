@@ -20,7 +20,7 @@ def lcs3(first_sequence, second_sequence, third_sequence):
                 else:
                     mat[i, j, k] = max(max(mat[i - 1, j, k], mat[i, j - 1, k]), mat[i, j, k - 1])
 
-    return mat[i, j, k]
+    return int(mat[i, j, k])
 
 
 if __name__ == '__main__':
